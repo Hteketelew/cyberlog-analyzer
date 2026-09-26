@@ -1,0 +1,8 @@
+Sep 26 10:01:01 server sshd[1001]: Accepted password for admin from 192.168.1.10 port 52122 ssh2
+Sep 26 10:02:11 server sshd[1002]: Failed password for admin from 10.0.0.50 port 42111 ssh2
+Sep 26 10:02:15 server sshd[1003]: Failed password for admin from 10.0.0.50 port 42112 ssh2
+Sep 26 10:02:19 server sshd[1004]: Failed password for admin from 10.0.0.50 port 42113 ssh2
+Sep 26 10:02:23 server sshd[1005]: Failed password for admin from 10.0.0.50 port 42114 ssh2
+Sep 26 10:02:27 server sshd[1006]: Failed password for admin from 10.0.0.50 port 42115 ssh2
+Sep 26 10:03:01 server sshd[1007]: Accepted password for developer from 192.168.1.20 port 52130 ssh2
+Sep 26 10:04:01 server sshd[1008]: Invalid user test from 203.0.113.25 port 50001
