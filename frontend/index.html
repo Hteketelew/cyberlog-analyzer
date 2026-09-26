@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyberLog Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🛡️ CyberLog Analyzer</h1>
+    <p>Security log analysis and threat detection</p>
+</header>
+
+<main>
+
+    <section class="upload-card">
+
+        <h2>Analyze Log File</h2>
+
+        <input
+            type="file"
+            id="logFile"
+            accept=".log,.txt"
+        >
+
+        <button onclick="analyzeLog()">
+            Analyze
+        </button>
+
+        <p id="status"></p>
+
+    </section>
+
+    <section id="summary" class="dashboard hidden">
+
+        <div class="stat">
+            <h3>Total Lines</h3>
+            <p id="totalLines">0</p>
+        </div>
+
+        <div class="stat">
+            <h3>Alerts</h3>
+            <p id="totalAlerts">0</p>
+        </div>
+
+        <div class="stat">
+            <h3>High Severity</h3>
+            <p id="highAlerts">0</p>
+        </div>
+
+    </section>
+
+    <section class="results">
+
+        <h2>Security Alerts</h2>
+
+        <div id="alerts"></div>
+
+    </section>
+
+</main>
+
+<script src="app.js"></script>
+
+</body>
+</html>
